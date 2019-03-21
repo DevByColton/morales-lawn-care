@@ -13,9 +13,9 @@ import { AgmCoreModule } from '@agm/core';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'MY KEY HERE'
-    }),
+    // AgmCoreModule.forRoot({
+    //   apiKey: 'MY KEY HERE'
+    // }),
     AppRoutingModule
   ],
   providers: [],
