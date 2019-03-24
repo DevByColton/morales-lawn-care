@@ -12,8 +12,10 @@ export class NavBarComponent implements OnInit {
   appName = AppConstants.APPLICATION_NAME;
   navBarItems: NavBarItem[] = [
     new NavBarItem('Pricing', RouteConstants.PRICING_ROUTE, 'fas fa-dollar-sign'),
-    new NavBarItem('My Equipment', RouteConstants.MY_EQUIPMENT, 'fas fa-truck-pickup'),
-    new NavBarItem('Contact Me', RouteConstants.CONTACT_ME, 'fas fa-mobile-alt')
+    new NavBarItem('Availability', RouteConstants.AVAILABILITY_ROUTE, 'fas fa-calendar-alt'),
+    new NavBarItem('Contact Me', RouteConstants.CONTACT_ME_ROUTE, 'fas fa-mobile-alt'),
+    new NavBarItem('My Equipment', RouteConstants.MY_EQUIPMENT_ROUTE, 'fas fa-truck-pickup'),
+    new NavBarItem('Gallery', RouteConstants.GALLERY_ROUTE, 'fas fa-images')
   ];
 
   constructor() { }

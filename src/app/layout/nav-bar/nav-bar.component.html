@@ -1,14 +1,14 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
   <a class="navbar-brand" [routerLink]="''"><i class="fas fa-truck-loading"></i>&nbsp;{{ appName }}</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
     aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <i class="fas fa-align-right"></i>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <div *ngFor="let navBarItem of navBarItems">
         <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
-          <a class="nav-link" [routerLink]="navBarItem.url">
+          <a class="nav-link" [routerLink]="navBarItem.url" routerLinkActive="border-bottom">
             <i class="{{ navBarItem.icon }}"></i>&nbsp;{{ navBarItem.name }}
             <span class="sr-only">(current)</span>
           </a>

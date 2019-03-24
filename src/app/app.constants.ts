@@ -5,6 +5,8 @@ export class AppConstants {
 export class RouteConstants {
     public static HOME_ROUTE = '';
     public static PRICING_ROUTE = 'pricing';
-    public static MY_EQUIPMENT = 'my-equipment'
-    public static CONTACT_ME = 'contact-me';
+    public static AVAILABILITY_ROUTE = 'availability';
+    public static MY_EQUIPMENT_ROUTE = 'my-equipment';
+    public static CONTACT_ME_ROUTE = 'contact-me';
+    public static GALLERY_ROUTE = 'gallery'
 }
