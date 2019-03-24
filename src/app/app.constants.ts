@@ -1,5 +1,5 @@
 export class AppConstants {
-    public static APPLICATION_NAME = 'Morales Lawn Care';
+    public static APPLICATION_NAME = 'CM Lawn Care';
 }
 
 export class RouteConstants {

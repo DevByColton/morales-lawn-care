@@ -1,0 +1,9 @@
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh; /* 100% viewport height */
+    flex-direction: column; /* Push footer down */
+}
+
+.flex-content {
+    flex: 1; /* Flex one column */
+} 
