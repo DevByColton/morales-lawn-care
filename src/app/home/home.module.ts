@@ -7,6 +7,7 @@ import { AvailabilityModule } from '../availability/availability.module';
 import { ContactMeModule } from '../contact-me/contact-me.module';
 import { GalleryModule } from '../gallery/gallery.module';
 import { MyEquipmentModule } from '../my-equipment/my-equipment.module';
+import { CoreModule } from '../core/core.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MyEquipmentModule } from '../my-equipment/my-equipment.module';
     AvailabilityModule,
     ContactMeModule,
     GalleryModule,
-    MyEquipmentModule
+    MyEquipmentModule,
+    CoreModule
   ],
   entryComponents: [
     HomeComponent
