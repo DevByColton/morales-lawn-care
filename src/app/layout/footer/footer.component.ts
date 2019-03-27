@@ -8,8 +8,7 @@ import { AppConstants } from 'src/app/app.constants';
 })
 export class FooterComponent implements OnInit {
 
-  mySite = AppConstants.APPLICATION_NAME;
-  year = new Date();
+  message = AppConstants.FOOTER_MESSAGE;
 
   constructor() { }
 
