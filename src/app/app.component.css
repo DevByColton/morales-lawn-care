@@ -5,5 +5,5 @@
 }
 
 .flex-content {
-    flex: 1 0 auto; /* Flex one column */
+    flex: 1; /* Flex one column */
 } 
