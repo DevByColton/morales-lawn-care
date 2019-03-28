@@ -1,33 +1,35 @@
 <!-- My Statement & Pricing overviews -->
-<div class="row ml-0 mr-0">
-  <div class="col-lg-6 text-center" style="background-color: pink;">
-    <app-overview-header [header]='My Statement'></app-overview-header>
+<div class="row no-gutters">
+  <div class="col-lg-6 text-center light-cyan">
+    <app-overview-header [header]="'My Statement'" [icon]="'fas fa-quote-left fa-sm'"></app-overview-header>
     <app-my-statement></app-my-statement>
   </div>
-  <div class="col-lg-6 text-center" style="background-color: red">
-    <app-overview-header [header]='Pricing'></app-overview-header>
+  <div class="col-lg-6 text-center light-gray">
+    <app-overview-header [header]="'Pricing'" [icon]="'fas fa-dollar-sign fa-sm'"></app-overview-header>
     <app-pricing-overview></app-pricing-overview>
   </div>
 </div>
 <!-- Availability & Contact Me overviews -->
-<div class="row ml-0 mr-0">
-  <div class="col-lg-6 text-center" style="background-color: lightcoral;">
-    <app-overview-header [header]='Availability'></app-overview-header>
+<div class="row no-gutters">
+  <div class="col-lg-6 text-center light-gray">
+    <app-overview-header [header]="'Availability'" [icon]="'fas fa-calendar-alt fa-sm'"></app-overview-header>
     <app-availability-overview></app-availability-overview>
   </div>
-  <div class="col-lg-6 text-center" style="background-color: lightcyan">
-    <app-overview-header [header]='Contact Me'></app-overview-header>
+  <div class="col-lg-6 text-center light-cyan">
+    <app-overview-header [header]="'Contact Me'" [icon]="'fas fa-mobile-alt fa-sm'"></app-overview-header>
     <app-contact-me-overview></app-contact-me-overview>
   </div>
 </div>
 <!-- Gallery & My Equipment overviews -->
-<div class="row ml-0 mr-0">
-  <div class="col-lg-6 text-center" style="background-color: lightseagreen; overflow: hidden;">
-    <app-overview-header [header]='Gallery'></app-overview-header>
-    <app-gallery-overview></app-gallery-overview>
-  </div>
-  <div class="col-lg-6 text-center" style="background-color: lightslategrey">
-    <app-overview-header [header]='My Equipment'></app-overview-header>
+<div class="row no-gutters">
+  <div class="col-lg-6 text-center light-cyan">
+    <app-overview-header [header]="'My Equipment'" [icon]="'fas fa-truck-pickup fa-sm'"></app-overview-header>
     <app-my-equipment-overview></app-my-equipment-overview>
+  </div>
+  <div class="col-lg-6 text-center light-gray hide-overflow">
+    <app-overview-header [header]="'Gallery'" [icon]="'fas fa-images fa-sm'"></app-overview-header>
+    <div class="container pb-2 carousel-sizing">
+      <app-gallery-overview></app-gallery-overview>
+    </div>
   </div>
 </div>

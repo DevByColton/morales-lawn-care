@@ -2,7 +2,7 @@
   <div class="carousel-inner">
     <div *ngFor="let carouselImage of carouselImages; let i = index" 
          class="carousel-item {{ (i == 0) ? 'active' : ''}}">
-      <img class="d-block img-fluid w-100" 
+      <img class="d-block img-fluid w-100 rounded" 
            src="{{ carouselImage.path }}" 
            alt="{{ carouselImage.name }}">
     </div>

@@ -12,7 +12,9 @@ import { OverviewHeaderComponent } from './components/overview-header/overview-h
     CommonModule
   ],
   entryComponents: [
-    PageNotFoundComponent,
+    PageNotFoundComponent
+  ],
+  exports: [
     OverviewHeaderComponent
   ]
 })
