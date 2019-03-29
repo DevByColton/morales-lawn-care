@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.light-cyan {
+    background-color: lightcyan;
+  }
+  
+  .light-gray {
+    background-color: #e0eeee;
+  }
+  
+  .light-white {
+    background-color: #ECEDED;
+  }

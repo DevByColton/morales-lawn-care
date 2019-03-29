@@ -6,8 +6,8 @@ import { PricingModule } from '../pricing/pricing.module';
 import { AvailabilityModule } from '../availability/availability.module';
 import { ContactMeModule } from '../contact-me/contact-me.module';
 import { GalleryModule } from '../gallery/gallery.module';
-import { MyEquipmentModule } from '../my-equipment/my-equipment.module';
 import { CoreModule } from '../core/core.module';
+import { AboutMeModule } from '../about-me/about-me.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import { CoreModule } from '../core/core.module';
     AvailabilityModule,
     ContactMeModule,
     GalleryModule,
-    MyEquipmentModule,
+    AboutMeModule,
     CoreModule
   ],
   entryComponents: [

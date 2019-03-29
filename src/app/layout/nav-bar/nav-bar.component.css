@@ -2,3 +2,7 @@
     background-color: #596666;
     min-height: 80px;
 }
+
+button:focus {
+    outline: #596666;
+}

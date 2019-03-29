@@ -9,6 +9,7 @@ export class RouteConstants {
     public static PRICING_ROUTE = 'pricing';
     public static AVAILABILITY_ROUTE = 'availability';
     public static MY_EQUIPMENT_ROUTE = 'my-equipment';
+    public static ABOUT_ME = 'about-me';
     public static CONTACT_ME_ROUTE = 'contact-me';
     public static GALLERY_ROUTE = 'gallery';
 }
