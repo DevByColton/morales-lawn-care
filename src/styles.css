@@ -1,12 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+/* Globals */
 .light-cyan {
-    background-color: lightcyan;
-  }
+  background-color: #E0FDE0;
+}
   
-  .light-gray {
-    background-color: #e0eeee;
-  }
-  
-  .light-white {
-    background-color: #ECEDED;
-  }
+.light-gray {
+  background-color: #EFFEEF;
+}
+
+.navbar {
+  background-color: #7C8D7C;
+  min-height: 80px;
+}
