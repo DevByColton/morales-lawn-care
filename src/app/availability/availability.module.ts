@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AvailabilityComponent } from './availability/availability.component';
 import { AvailabilityOverviewComponent } from './availability-overview/availability-overview.component';
+import { CoreModule } from '../core/core.module';
 
 @NgModule({
   declarations: [
@@ -9,7 +10,8 @@ import { AvailabilityOverviewComponent } from './availability-overview/availabil
     AvailabilityOverviewComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    CoreModule
   ],
   entryComponents: [
     AvailabilityComponent

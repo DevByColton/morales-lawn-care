@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PricingComponent } from './pricing/pricing.component';
 import { PricingOverviewComponent } from './pricing-overview/pricing-overview.component';
+import { CoreModule } from '../core/core.module';
 
 @NgModule({
   declarations: [
@@ -9,7 +10,8 @@ import { PricingOverviewComponent } from './pricing-overview/pricing-overview.co
     PricingOverviewComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    CoreModule
   ],
   entryComponents: [
     PricingComponent
