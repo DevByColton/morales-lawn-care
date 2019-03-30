@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { NavBarItem } from 'src/app/core/model/nav-bar-item.model';
 import { RouteConstants, AppConstants } from 'src/app/app.constants';
 
@@ -8,8 +8,6 @@ import { RouteConstants, AppConstants } from 'src/app/app.constants';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent implements OnInit {
-
-  @ViewChild('navBar') navBar: ElementRef;
 
   appName = AppConstants.APPLICATION_NAME;
   navBarItems: NavBarItem[] = [
@@ -24,5 +22,4 @@ export class NavBarComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

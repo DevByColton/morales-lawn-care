@@ -8,6 +8,7 @@ import { ContactMeModule } from '../contact-me/contact-me.module';
 import { GalleryModule } from '../gallery/gallery.module';
 import { CoreModule } from '../core/core.module';
 import { AboutMeModule } from '../about-me/about-me.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { AboutMeModule } from '../about-me/about-me.module';
   ],
   imports: [
     CommonModule,
+    BrowserAnimationsModule,
     PricingModule,
     AvailabilityModule,
     ContactMeModule,
