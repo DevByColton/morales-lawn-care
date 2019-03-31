@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { AboutMeOverviewComponent } from './about-me-overview/about-me-overview.component';
 import { CoreModule } from '../core/core.module';
+import { AboutMeDetailsComponent } from './about-me-details/about-me-details.component';
 
 @NgModule({
   declarations: [
     AboutMeComponent, 
-    AboutMeOverviewComponent
+    AboutMeOverviewComponent, AboutMeDetailsComponent
   ],
   imports: [
     CommonModule,
