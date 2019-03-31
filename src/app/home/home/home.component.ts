@@ -18,19 +18,12 @@ import { trigger, transition, style, animate, keyframes, state } from '@angular/
 })
 export class HomeComponent implements OnInit {
 
-  show = false;
-
   constructor() { }
 
   ngOnInit() {
-    this.toggle;
   }
 
   get showContent(): boolean {
-     return this.show ? true : false;
-  }
-
-  private toggle(): void {
-    this.show = !this.show;
+     return true;
   }
 }

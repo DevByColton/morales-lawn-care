@@ -4,16 +4,20 @@
       <app-overview-header [header]="'Pricing'" [icon]="'fas fa-dollar-sign fa-sm'"></app-overview-header>
     </div>
   </div>
-  <app-pricing-details></app-pricing-details>
+  <div class="row">
+    <div class="col">
+      <app-pricing-details></app-pricing-details>
+    </div>
+  </div>
   <div class="row pt-2 pb-4">
     <div class="col-lg-6">
-      <app-disclaimer></app-disclaimer>
+      <strong>I accpet cash only!</strong> No other forms of payment will be accepted. This is why
+      I do not charge by the hour, to keep even rounded amounts. If you would like
+      to call or email me to discuss service futher, or schedule an appointment,
+      <a [routerLink]="'/contact-me'" class="hyperlink">contact me</a> anytime with your questions!
     </div>
     <div class="col-lg-6">
-      <strong>I accpet cash only!</strong> No other forms of payment will be accepted. This is why 
-      I do not charge by the hour, to keep even rounded amounts. If you would like 
-      to call or email me to discuss service futher, or schedule an appointment, 
-      <a [routerLink]="'/contact-me'" class="hyperlink">contact me</a> anytime with your questions!
+      <app-disclaimer></app-disclaimer>
     </div>
   </div>
 </div>
