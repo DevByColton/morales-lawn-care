@@ -10,5 +10,4 @@ export class RouteConstants {
     public static AVAILABILITY_ROUTE = 'availability';
     public static ABOUT_ME = 'about-me';
     public static CONTACT_ME_ROUTE = 'contact-me';
-    public static GALLERY_ROUTE = 'gallery';
 }

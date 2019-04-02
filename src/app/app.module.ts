@@ -10,7 +10,6 @@ import { HomeModule } from './home/home.module';
 import { PricingModule } from './pricing/pricing.module';
 import { AvailabilityModule } from './availability/availability.module';
 import { ContactMeModule } from './contact-me/contact-me.module';
-import { GalleryModule } from './gallery/gallery.module';
 import { AboutMeModule } from './about-me/about-me.module';
 
 @NgModule({
@@ -26,7 +25,6 @@ import { AboutMeModule } from './about-me/about-me.module';
     PricingModule,
     AvailabilityModule,
     ContactMeModule,
-    GalleryModule,
     AboutMeModule,
     AppRoutingModule
   ],

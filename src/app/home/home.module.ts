@@ -1,19 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
-import { MyStatementComponent } from './my-statement/my-statement.component';
 import { PricingModule } from '../pricing/pricing.module';
 import { AvailabilityModule } from '../availability/availability.module';
 import { ContactMeModule } from '../contact-me/contact-me.module';
-import { GalleryModule } from '../gallery/gallery.module';
 import { CoreModule } from '../core/core.module';
 import { AboutMeModule } from '../about-me/about-me.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
-    HomeComponent,
-    MyStatementComponent
+    HomeComponent
   ],
   imports: [
     CommonModule,
@@ -21,7 +18,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PricingModule,
     AvailabilityModule,
     ContactMeModule,
-    GalleryModule,
     AboutMeModule,
     CoreModule
   ],

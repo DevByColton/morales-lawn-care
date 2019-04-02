@@ -14,7 +14,6 @@ const routes: Routes = [
   { path: RouteConstants.PRICING_ROUTE, component: PricingComponent },
   { path: RouteConstants.AVAILABILITY_ROUTE, component: AvailabilityComponent },
   { path: RouteConstants.CONTACT_ME_ROUTE, component: ContactMeComponent },
-  { path: RouteConstants.GALLERY_ROUTE, component: GalleryComponent },
   { path: RouteConstants.ABOUT_ME, component: AboutMeComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
