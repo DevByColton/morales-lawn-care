@@ -6,7 +6,6 @@ import { HomeComponent } from './home/home/home.component';
 import { PricingComponent } from './pricing/pricing/pricing.component';
 import { AvailabilityComponent } from './availability/availability/availability.component';
 import { ContactMeComponent } from './contact-me/contact-me/contact-me.component';
-import { GalleryComponent } from './gallery/gallery/gallery.component';
 import { AboutMeComponent } from './about-me/about-me/about-me.component';
 
 const routes: Routes = [

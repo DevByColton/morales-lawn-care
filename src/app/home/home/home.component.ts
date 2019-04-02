@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, transition, style, animate, keyframes, state } from '@angular/animations';
+import { RouteConstants } from 'src/app/app.constants';
 
 @Component({
   selector: 'app-home',
@@ -17,6 +18,11 @@ import { trigger, transition, style, animate, keyframes, state } from '@angular/
   ]
 })
 export class HomeComponent implements OnInit {
+
+  pricingRoute = RouteConstants.PRICING_ROUTE;
+  availabilityRoute = RouteConstants.AVAILABILITY_ROUTE;
+  contactMeRoute = RouteConstants.CONTACT_ME_ROUTE;
+  aboutMeRoute = RouteConstants.ABOUT_ME;
 
   constructor() { }
 
