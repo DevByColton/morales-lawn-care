@@ -8,7 +8,48 @@
 }
 
 .hyperlink {
-  color: black;
+  color: #19198C;
   text-decoration: underline;
   cursor: pointer;
 }
+
+.text-zoom { 
+  transition: all .1s ease-in-out; 
+}
+
+.text-zoom:hover { 
+  transform: scale(1.1); 
+}
+
+/* START On load overview component transitions */
+@keyframes stagger {
+  0% {
+    opacity: 0.0;
+    transform: translateY(100px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1.0;
+    transform: translateY(0px);
+  }
+}
+
+.stagger-pricing {
+  animation: .5s ease-in 0.10s 1 stagger;
+}
+
+.stagger-availabilty {
+  animation: .5s ease-in 0.20s 1 stagger;
+}
+
+.stagger-contact-me {
+  animation: .5s ease-in 0.30s 1 stagger;
+}
+
+.stagger-about-me {
+  animation: .5s ease-in 0.40s 1 stagger;
+}
+/* END On load overview component transitions */
