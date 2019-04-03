@@ -1,0 +1,15 @@
+.jumbotron {
+    padding: 2rem 2rem;
+    background-image: url("../../../assets/hillside.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0;
+}
+
+p, h1 {
+    color: white;
+}
+
+hr {
+    border-color: white;
+}

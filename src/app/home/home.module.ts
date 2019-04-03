@@ -7,10 +7,12 @@ import { ContactMeModule } from '../contact-me/contact-me.module';
 import { CoreModule } from '../core/core.module';
 import { AboutMeModule } from '../about-me/about-me.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MyStatementComponent } from './my-statement/my-statement.component';
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    MyStatementComponent
   ],
   imports: [
     CommonModule,
