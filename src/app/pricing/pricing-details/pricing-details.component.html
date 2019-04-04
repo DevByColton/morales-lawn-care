@@ -3,14 +3,18 @@
     <h5><strong>I accept CASH ONLY!</strong></h5>
   </div>
 </div>
-<div class="row pt-2 justify-content-center">
-  <div class="col-lg-4">
-    <h5>1/4 acre yard: $40.00</h5>
-  </div>
-  <div class="col-lg-4">
-    <h5>1/2 acre yard: $50.00</h5>
-  </div>
-  <div class="col-lg-4">
-    <h5>1 acre yard: $70.00</h5>
+
+<div class="row justify-content-center">
+  <div class="col-lg-8">
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        1/2 acre and under - Up to 2 hours
+        <span class="badge badge-pill">{{ halfAcrePrice |  currency:'USD' }}</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        3/4 to 1 acre - Over 2 & half hours
+        <span class="badge badge-pill">{{ oneAcrePrice |  currency:'USD' }}</span>
+      </li>
+    </ul>
   </div>
 </div>

@@ -1,6 +1,6 @@
 .jumbotron {
     padding: 2rem 2rem;
-    background-image: url("../../../assets/hillside.jpg");
+    background-image: url("/assets/hillside.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 0;
