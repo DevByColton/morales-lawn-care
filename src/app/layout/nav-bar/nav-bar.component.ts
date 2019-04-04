@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NavBarItem } from 'src/app/core/model/nav-bar-item.model';
 import { RouteConstants, AppConstants } from 'src/app/app.constants';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav-bar',
@@ -17,8 +18,12 @@ export class NavBarComponent implements OnInit {
     new NavBarItem('About Me', RouteConstants.ABOUT_ME, 'fas fa-user')
   ];
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+
+  public routeHome(): void {
+    this.router.navigate(['']);
   }
 }

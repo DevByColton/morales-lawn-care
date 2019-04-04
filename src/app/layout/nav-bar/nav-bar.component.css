@@ -3,6 +3,10 @@
     min-height: 80px;
 }
 
+a:not([href]):not([tabindex]) {
+    color: white;
+}
+
 button:focus {
     outline: #7C8D7C;
 }
