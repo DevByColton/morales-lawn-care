@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 })
 export class NavBarComponent implements OnInit {
 
+  isNavBarCollapsed = true;
   appName = AppConstants.APPLICATION_NAME;
   navBarItems: NavBarItem[] = [
     new NavBarItem('Pricing', RouteConstants.PRICING_ROUTE, 'fas fa-dollar-sign'),
@@ -25,5 +26,9 @@ export class NavBarComponent implements OnInit {
 
   public routeHome(): void {
     this.router.navigate(['']);
+  }
+
+  switch(): void {
+    this.isNavBarCollapsed = !this.isNavBarCollapsed;
   }
 }
