@@ -1,43 +1,37 @@
-<!-- My Statement -->
-<div class="row no-gutters">
-  <div class="col-12">
-    <app-my-statement></app-my-statement>
+<div class="flex-container">
+  <!-- My Statement -->
+  <div class="row no-gutters">
+    <div class="col-12">
+      <app-my-statement></app-my-statement>
+    </div>
   </div>
+  <!-- /My Statement -->
+  <!-- Pricing & Availabilty Overviews -->
+  <div class="row no-gutters">
+    <div class="col-lg-6 text-center light-green border-bottom">
+      <app-overview-header [header]="'Pricing'" [icon]="'fas fa-dollar-sign fa-sm'" [route]="pricingRoute"
+        [isClickable]="true"></app-overview-header>
+      <app-pricing-overview></app-pricing-overview>
+    </div>
+    <div class="col-lg-6 text-center gray-green border-bottom border-left">
+      <app-overview-header [header]="'Service Availability'" [icon]="'fas fa-calendar-alt fa-sm'"
+        [route]="availabilityRoute" [isClickable]="true"></app-overview-header>
+      <app-availability-overview></app-availability-overview>
+    </div>
+  </div>
+  <!-- /Pricing & Availabilty Overviews -->
+  <!-- Contact Me & About Me -->
+  <div class="row no-gutters">
+    <div class="col-lg-6 text-center gray-green border-bottom">
+      <app-overview-header [header]="'Contact Me'" [icon]="'fas fa-mobile-alt fa-sm'" [route]="contactMeRoute"
+        [isClickable]="true"></app-overview-header>
+      <app-contact-me-overview></app-contact-me-overview>
+    </div>
+    <div class="col-lg-6 text-center light-green border-bottom border-left">
+      <app-overview-header [header]="'About Me'" [icon]="'fas fa-user'" [route]="aboutMeRoute" [isClickable]="true">
+      </app-overview-header>
+      <app-about-me-overview></app-about-me-overview>
+    </div>
+  </div>
+  <!-- /Contact Me & About Me -->
 </div>
-<!-- /My Statement -->
-<!-- Pricing & Availabilty Overviews -->
-<div class="row no-gutters">
-  <div class="col-lg-6 text-center light-green border-bottom stagger-pricing">
-    <app-overview-header [header]="'Pricing'" 
-                         [icon]="'fas fa-dollar-sign fa-sm'" 
-                         [route]="pricingRoute" 
-                         [isClickable]="true"></app-overview-header>
-    <app-pricing-overview></app-pricing-overview>
-  </div>
-  <div class="col-lg-6 text-center gray-green border-bottom border-left stagger-availabilty">
-    <app-overview-header [header]="'Service Availability'" 
-                         [icon]="'fas fa-calendar-alt fa-sm'" 
-                         [route]="availabilityRoute" 
-                         [isClickable]="true"></app-overview-header>
-    <app-availability-overview></app-availability-overview>
-  </div>
-</div>
-<!-- /Pricing & Availabilty Overviews -->
-<!-- Contact Me & About Me -->
-<div class="row no-gutters">
-  <div class="col-lg-6 text-center gray-green border-bottom stagger-contact-me">
-    <app-overview-header [header]="'Contact Me'" 
-                         [icon]="'fas fa-mobile-alt fa-sm'" 
-                         [route]="contactMeRoute" 
-                         [isClickable]="true"></app-overview-header>
-    <app-contact-me-overview></app-contact-me-overview>
-  </div>
-  <div class="col-lg-6 text-center light-green border-bottom border-left stagger-about-me">
-    <app-overview-header [header]="'About Me'" 
-                         [icon]="'fas fa-user'" 
-                         [route]="aboutMeRoute" 
-                         [isClickable]="true"></app-overview-header>
-    <app-about-me-overview></app-about-me-overview>
-  </div>
-</div>
-<!-- /Contact Me & About Me -->

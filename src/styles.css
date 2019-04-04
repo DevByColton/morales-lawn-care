@@ -22,7 +22,7 @@
 }
 
 /* START On load overview component transitions */
-@keyframes stagger {
+/* @keyframes stagger {
   0% {
     opacity: 0.0;
     transform: translateY(100px);
@@ -51,5 +51,5 @@
 
 .stagger-about-me {
   animation: .5s ease-in 0.40s 1 stagger;
-}
+} */
 /* END On load overview component transitions */

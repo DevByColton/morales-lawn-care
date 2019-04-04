@@ -6,3 +6,11 @@
     background-color: #7C8D7C;
     color: white;
 }
+
+.price-font {
+  font-size: 1.75em;
+}
+
+.card-body {
+  padding: .7rem;
+}

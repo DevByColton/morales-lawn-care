@@ -3,6 +3,10 @@
     min-height: 80px;
 }
 
+.navbar:hover {
+    cursor: pointer;
+}
+
 a:not([href]):not([tabindex]) {
     color: white;
 }

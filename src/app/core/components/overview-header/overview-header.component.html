@@ -1,12 +1,12 @@
-<div class="container-fluid">
-    <div *ngIf="isClickable" class="clickable rounded">
-        <a (click)="goToPage()">
-            <h4 class="pt-2 text-zoom"><i class="{{ icon }}"></i>&nbsp;{{ header }}</h4>
-            <hr class="mt-0 mb-1">
-        </a>
+<div class="container">
+    <div class="row justify-content-center">
+        <div *ngIf="isClickable" class="clickable rounded col-8">
+            <a (click)="goToPage()">
+                <h4 class="pt-2 text-zoom"><i class="{{ icon }}"></i>&nbsp;{{ header }}</h4>
+            </a>
+        </div>
     </div>
     <div *ngIf="!isClickable">
         <h4 class="pt-2"><i class="{{ icon }}"></i>&nbsp;{{ header }}</h4>
-        <hr class="mt-0 mb-1">
     </div>
 </div>
