@@ -1,5 +1,6 @@
 export class AppConstants {
     public static APPLICATION_NAME = 'CM Lawn Mowing';
+    public static PHONE = '(512)-501-0390';
     public static DEV_EMAIL = 'developmentbycolton@outlook.com';
     public static FOOTER_MESSAGE = 'Notice problems with the website? Email ' + AppConstants.DEV_EMAIL;
 

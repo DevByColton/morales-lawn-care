@@ -9,6 +9,7 @@ import { AppConstants } from 'src/app/app.constants';
 export class ContactMeDetailsComponent implements OnInit {
 
   email = AppConstants.DEV_EMAIL;
+  phoneDisplay = AppConstants.PHONE;
 
   constructor() { }
 

@@ -1,36 +1,44 @@
-<div class="row">
-  <!-- Phone -->
-  <div class="col-lg-6 pt-2">
-      Phone:
-    <div class="d-lg-none d-xl-none">
-      <address>
-        <a href="tel:1-512-501-0390" class="hyperlink">(512)-501-0390</a><br>
-      </address>
+<div class="container">
+  <div class="card-group rounded">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Phone
+          <br>
+          <div class="d-lg-none d-xl-none">
+            <address>
+              <a href="tel:1-512-501-0390" class="hyperlink"><small>{{ phoneDisplay }}</small></a><br>
+            </address>
+          </div>
+          <div class="d-none d-lg-block">
+            <small>{{ phoneDisplay }}</small>
+          </div>
+        </h5>
+        <small class="card-text">
+          This is my best form of contact. Feel free to call at anytime, if I miss your call please leave
+          a short voicemail with your name, phone number, and a quick summary of your yard. I will
+          respond as soon as I am able.
+        </small>
+      </div>
     </div>
-    <div class="d-none d-lg-block">
-      (512)-501-0390
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Email
+          <br>
+          <div class="d-lg-none d-xl-none">
+            <address>
+              <a href="mailto:{{email}}" class="hyperlink"><small>{{email}}</small></a><br>
+            </address>
+          </div>
+          <div class="d-none d-lg-block">
+            <small>{{email}}</small>
+          </div>
+        </h5>
+        <small class="card-text">
+            I will respond to emails within a few hours of reciving them. If you
+            send an email about scheduling an appointment, I will still require a phone call before
+            servicing your yard. I hope to be hearing from you soon!
+        </small>
+      </div>
     </div>
-  </div>
-  <!-- /Phone -->
-  <!-- Email -->
-  <div class="col-lg-6 pt-2">
-    Email:
-    <div class="d-lg-none d-xl-none">
-      <address>
-        <a href="mailto:{{email}}" class="hyperlink">{{email}}</a><br>
-      </address>
-    </div>
-    <div class="d-none d-lg-block">
-      {{email}}
-    </div>
-  </div>
-  <!-- /Email -->
-</div>
-<div class="row pt-2">
-  <div class="col-12">
-    Feel free to reach out to me anytime with questions, or to schedule an appointment!
-    I will respond to emails and missed calls within a few hours of reciving them. If you
-    send an email about scheduling an appointment, I will still require a phone call before
-    servicing your yard. I hope to be hearing from you soon!
   </div>
 </div>
