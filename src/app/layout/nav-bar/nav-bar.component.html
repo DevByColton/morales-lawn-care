@@ -9,7 +9,7 @@
     <ul class="navbar-nav">
       <div *ngFor="let navBarItem of navBarItems">
         <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
-          <a class="nav-link text-zoom" [routerLink]="navBarItem.url" routerLinkActive="border-bottom">
+          <a class="nav-link" [ngClass]="{'text-zoom': isSmallScreen}" [routerLink]="navBarItem.url" routerLinkActive="border-bottom">
             <i class="{{ navBarItem.icon }}"></i>&nbsp;{{ navBarItem.name }}
             <span class="sr-only">(current)</span>
           </a>

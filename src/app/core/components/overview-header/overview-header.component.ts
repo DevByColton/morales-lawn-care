@@ -19,6 +19,9 @@ export class OverviewHeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  /**
+   * Routes to page based on route input 
+   */
   public routeToPage(): void {
     switch (this.route) {
       case RouteConstants.PRICING_ROUTE:

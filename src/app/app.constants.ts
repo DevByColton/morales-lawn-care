@@ -5,7 +5,7 @@ export class AppConstants {
     public static FOOTER_MESSAGE = 'Notice problems with the website? Email ' + AppConstants.DEV_EMAIL;
 
     // Prices
-    public static QUATER_ACRE_PRICE = 40;
+    public static QUATER_ACRE_PRICE = 40; // Not using right now, but keep for possible future use
     public static HALF_ACRE_PRICE = 50;
     public static ONE_ACRE_PRICE = 70;
 }
