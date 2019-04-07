@@ -4,6 +4,7 @@ import { AvailabilityComponent } from './availability/availability.component';
 import { AvailabilityOverviewComponent } from './availability-overview/availability-overview.component';
 import { CoreModule } from '../core/core.module';
 import { AvailabilityDetailsComponent } from './availability-details/availability-details.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { AvailabilityDetailsComponent } from './availability-details/availabilit
   ],
   imports: [
     CommonModule,
-    CoreModule
+    CoreModule,
+    RouterModule
   ],
   entryComponents: [
     AvailabilityComponent

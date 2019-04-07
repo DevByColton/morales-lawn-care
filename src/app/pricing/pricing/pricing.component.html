@@ -1,4 +1,4 @@
-<div class="container text-center">
+<div class="container text-center pb-3">
   <div class="row pt-2">
     <div class="col">
       <app-overview-header [header]="'Pricing'" [icon]="'fas fa-dollar-sign fa-sm'"></app-overview-header>
@@ -9,15 +9,15 @@
       <app-pricing-details></app-pricing-details>
     </div>
   </div>
-  <div class="row pt-2">
+  <div class="row pt-3">
     <div class="col-12">
-      <strong>Method's of payment: Cash or PayPal</strong> Payment is due on completion of service. No other forms of
-      payment will be accepted. You know the price you will pay before I even arrive, no quotes, only set prices.
-      If you would like to call or email me to discuss service futher, or schedule an appointment,
-      <a [routerLink]="'/contact-me'" class="hyperlink">contact me</a> anytime with your questions!
+      <i class="fas fa-money-bill-alt fa-sm"></i><strong>&nbsp;Payment</strong>
+      is due before I start my service. Cash or PayPal only, no other forms of payment will be accepted. 
+      No quotes, only set prices to leave the guessing out. <a [routerLink]="'/contact-me'" class="hyperlink">Contact me</a>
+      anytime if you would like to call or email to discuss service or schedule an appointment.
     </div>
   </div>
-  <div class="row pt-2 pb-2">
+  <div class="row pt-2">
     <div class="col">
       <app-disclaimer></app-disclaimer>
     </div>

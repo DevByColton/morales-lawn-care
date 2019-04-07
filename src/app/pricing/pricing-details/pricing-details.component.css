@@ -14,3 +14,7 @@
 .card-body {
   padding: .7rem;
 }
+
+.card-title {
+  margin-bottom: .25rem;
+}
