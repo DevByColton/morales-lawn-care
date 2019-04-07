@@ -4,11 +4,12 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { AboutMeOverviewComponent } from './about-me-overview/about-me-overview.component';
 import { CoreModule } from '../core/core.module';
 import { AboutMeDetailsComponent } from './about-me-details/about-me-details.component';
+import { AboutMeTextComponent } from './about-me-text/about-me-text.component';
 
 @NgModule({
   declarations: [
     AboutMeComponent, 
-    AboutMeOverviewComponent, AboutMeDetailsComponent
+    AboutMeOverviewComponent, AboutMeDetailsComponent, AboutMeTextComponent
   ],
   imports: [
     CommonModule,
