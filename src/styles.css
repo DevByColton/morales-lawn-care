@@ -21,6 +21,10 @@
   transform: scale(1.1);
 }
 
+.card-group > .card {
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
+}
+
 /* START On load overview component transitions */
 /* @keyframes stagger {
   0% {

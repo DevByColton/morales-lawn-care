@@ -6,8 +6,8 @@ export class AppConstants {
 
     // Prices
     public static QUATER_ACRE_PRICE = 40; // Not using right now, but keep for possible future use
-    public static HALF_ACRE_PRICE = 50;
-    public static ONE_ACRE_PRICE = 70;
+    public static HALF_ACRE_PRICE = 45;
+    public static ONE_ACRE_PRICE = 65;
 }
 
 export class RouteConstants {
