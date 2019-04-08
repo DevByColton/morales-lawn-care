@@ -11,6 +11,7 @@ export class PricingDetailsComponent implements OnInit {
   quaterAcrePrice = AppConstants.QUATER_ACRE_PRICE;
   halfAcrePrice = AppConstants.HALF_ACRE_PRICE;
   oneAcrePrice = AppConstants.ONE_ACRE_PRICE;
+  extensiveOvergrowthFee = AppConstants.EXTENSIVE_OVERGROWTH_FEE;
 
   constructor() { }
 

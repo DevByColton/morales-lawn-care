@@ -3,26 +3,26 @@
     <div class="card">
       <div class="card-body">
         <div class="card-title">
-          <span class="price-font">{{ halfAcrePrice |  currency:'USD' }}</span>
+          <span class="price-font">{{ halfAcrePrice | currency:'USD' }}</span>
           <small class="text-muted">&nbsp;/per service</small><br>
           <small><strong>Cash or PayPal only</strong></small>
         </div>
         <small class="card-text">
-          My minimum price. This is for the average residential yard, which is about 1/4 to 1/2 acre.
-          This price includes mowing, weed eating/edging, and blowing.
+          My minimum price. This is for the average residential lawn, any size, up to 1/2 an acre.
+          If your lawn has extensive overgrowth you will be charged an extra {{ extensiveOvergrowthFee | currency:'USD' }}.
         </small>
       </div>
     </div>
     <div class="card">
       <div class="card-body">
         <div class="card-title">
-          <span class="price-font">{{ oneAcrePrice |  currency:'USD' }}</span>
+          <span class="price-font">{{ oneAcrePrice | currency:'USD' }}</span>
           <small class="text-muted">&nbsp;/per service</small><br>
           <small><strong>Cash or PayPal only</strong></small>
         </div>
         <small class="card-text">
-          If your yard is about 3/4 quarters of an acre or bigger. I do not service yards over an acre.
-          This price includes mowing, weed eating/edging, and blowing.
+          If your lawn is about 3/4 quarters of an acre or bigger. I do not service lawns over an acre.
+          If your lawn has extensive overgrowth you will be charged an extra {{ extensiveOvergrowthFee | currency:'USD' }}.
         </small>
       </div>
     </div>
