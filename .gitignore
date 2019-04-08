@@ -12,8 +12,8 @@
 
 # firebase
 *.firebase
-*.firebaserc
-*.firebase.json
+.firebaserc
+.firebase.json
 
 # profiling files
 chrome-profiler-events.json
